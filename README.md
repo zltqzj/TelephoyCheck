@@ -2,7 +2,8 @@
 ## 2、引入两个头文件
 1. import <CoreTelephony/CTCallCenter.h>
 2. import <CoreTelephony/CTCall.h>
-## //3、定义变量(警告，最好不要在viewDidLoad中定义局部变量，最好是这种全局变量，否则因为变量被释放等无法接收来电话等的消息)
+
+## 3、定义变量(警告，最好不要在viewDidLoad中定义局部变量，最好是这种全局变量，否则因为变量被释放等无法接收来电话等的消息)
 ##@property(strong,nonatomic) CTCallCenter *callCenter;
 ##4、创建并接收回调等
 ```
